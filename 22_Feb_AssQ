@@ -1,0 +1,236 @@
+INFO:root:0     4
+1     8
+2    15
+3    16
+4    23
+5    42
+dtype: int64
+INFO:root:0     2
+1     4
+2     6
+3     8
+4    10
+5    12
+6    14
+7    16
+8    18
+9    20
+dtype: int64
+INFO:root:     Name  Age  Gender
+0   Alice   25  Female
+1     Bob   30    Male
+2  Claire   27  Female
+INFO:root:0     4
+1     8
+2    15
+3    16
+4    23
+5    42
+Name: My Series, dtype: int64
+INFO:root:     Name  Age  Gender
+0   Alice   25  Female
+1     Bob   30    Male
+2  Claire   27  Female
+INFO:root:   id  location_id  program_id accepted_payments alternate_name  \
+0   1            1         NaN               NaN            NaN   
+1   2            2         NaN               NaN            NaN   
+2   3            3         NaN               NaN            NaN   
+3   4            4         NaN               NaN            NaN   
+4   5            5         NaN               NaN            NaN   
+
+                           application_process  \
+0                   Walk in or apply by phone.   
+1           Apply by phone for an appointment.   
+2  Phone for information (403-4300 Ext. 4322).   
+3                              Apply by phone.   
+4                       Phone for information.   
+
+                                            audience  \
+0  Older adults age 55 or over, ethnic minorities...   
+1       Residents of San Mateo County age 55 or over   
+2  Older adults age 55 or over who can benefit fr...   
+3  Parents, children, families with problems of c...   
+4  Low-income working families with children tran...   
+
+                                         description  \
+0  A walk-in center for older adults that provide...   
+1  Provides training and job placement to eligibl...   
+2  Offers supportive counseling services to San M...   
+3  Provides supervised visitation services and a ...   
+4  Provides fixed 8% short term loans to eligible...   
+
+                                         eligibility email  ...  \
+0  Age 55 or over for most programs, age 60 or ov...   NaN  ...   
+1  Age 55 or over, county resident and willing an...   NaN  ...   
+2        Resident of San Mateo County age 55 or over   NaN  ...   
+3                                               None   NaN  ...   
+4  Eligibility: Low-income family with legal cust...   NaN  ...   
+
+  interpretation_services                                           keywords  \
+0                     NaN  ADULT PROTECTION AND CARE SERVICES, Meal Sites...   
+1                     NaN  EMPLOYMENT/TRAINING SERVICES, Job Development,...   
+2                     NaN  Geriatric Counseling, Older Adults, Gay, Lesbi...   
+3                     NaN  INDIVIDUAL AND FAMILY DEVELOPMENT SERVICES, Gr...   
+4                     NaN     COMMUNITY SERVICES, Speakers, Automobile Loans   
+
+  languages                               name required_documents  \
+0       NaN    Fair Oaks Adult Activity Center                NaN   
+1       NaN   Second Career Employment Program                NaN   
+2       NaN             Senior Peer Counseling                NaN   
+3       NaN           Family Visitation Center                NaN   
+4       NaN  Economic Self-Sufficiency Program                NaN   
+
+      service_areas  status wait_time website taxonomy_ids  
+0             Colma  active  No wait.     NaN          NaN  
+1  San Mateo County  active   Varies.     NaN          NaN  
+2  San Mateo County  active   Varies.     NaN          NaN  
+3  San Mateo County  active  No wait.     NaN          NaN  
+4  San Mateo County  active       NaN     NaN          NaN  
+
+[5 rows x 22 columns]
+INFO:root:             id  location_id  program_id
+count  23.00000    23.000000         0.0
+mean   12.00000    11.956522         NaN
+std     6.78233     6.711444         NaN
+min     1.00000     1.000000         NaN
+25%     6.50000     6.500000         NaN
+50%    12.00000    12.000000         NaN
+75%    17.50000    17.500000         NaN
+max    23.00000    22.000000         NaN
+INFO:root:             count       mean       std  min  25%   50%   75%   max
+id            23.0  12.000000  6.782330  1.0  6.5  12.0  17.5  23.0
+location_id   23.0  11.956522  6.711444  1.0  6.5  12.0  17.5  22.0
+program_id     0.0        NaN       NaN  NaN  NaN   NaN   NaN   NaN
+INFO:root:    id  location_id  program_id         accepted_payments  \
+22  23           22         NaN                       NaN   
+21  22           22         NaN  Cash, Check, Credit Card   
+20  21           21         NaN                       NaN   
+19  20           20         NaN                       NaN   
+18  19           19         NaN                       NaN   
+
+           alternate_name                             application_process  \
+22                    NaN               Walk in or apply by phone or mail   
+21  Fotos para pasaportes               Walk in or apply by phone or mail   
+20                    NaN                 By phone during business hours.   
+19                    NaN                                        Walk in.   
+18                    NaN  Call for screening appointment (650-347-3648).   
+
+                                             audience  \
+22  Second service and nonprofit businesses, the p...   
+21  Profit and nonprofit businesses, the public, m...   
+20                                                NaN   
+19                                                NaN   
+18                                                NaN   
+
+                                          description  \
+22  [NOTE THIS IS NOT A REAL ORGANIZATION--THIS IS...   
+21  [NOTE THIS IS NOT A REAL SERVICE--THIS IS FOR ...   
+20                                just a test service   
+19              no unrequired fields for this service   
+18  Provides free medical and dental care to those...   
+
+                                        eligibility                  email  \
+22                                             None                    NaN   
+21                                             None  passports@example.org   
+20                                              NaN                    NaN   
+19                                              NaN                    NaN   
+18  Low-income person without access to health care                    NaN   
+
+    ...                            interpretation_services  \
+22  ...                                                NaN   
+21  ...  We offer 3-way interpretation services over th...   
+20  ...                                                NaN   
+19  ...                                                NaN   
+18  ...                                                NaN   
+
+                                             keywords languages  \
+22         Ruby on Rails/Postgres/Redis, testing, wic       NaN   
+21                                    Salud, Medicina   Spanish   
+20                                                NaN       NaN   
+19                                                NaN       NaN   
+18  HEALTH SERVICES, Outpatient Care, Community Cl...       NaN   
+
+                               name                        required_documents  \
+22             Example Service Name                                       NaN   
+21                  Passport Photos  Government-issued picture identification   
+20  Service for Admin Test Location                                       NaN   
+19        Service with blank fields                                       NaN   
+18    San Mateo Free Medical Clinic                                       NaN   
+
+                       service_areas    status            wait_time  \
+22  San Mateo County, Alameda County    active   No wait to 2 weeks   
+21  Alameda County, San Mateo County    active  No wait to 2 weeks.   
+20                  San Mateo County  inactive                  NaN   
+19                               NaN   defunct                  NaN   
+18               Belmont, Burlingame    active              Varies.   
+
+                   website                              taxonomy_ids  
+22  http://www.example.com                                       NaN  
+21  http://www.example.com  105, 108, 108-05, 108-05-01, 111, 111-05  
+20                     NaN                                       NaN  
+19                     NaN                                       NaN  
+18                     NaN                                       NaN  
+
+[5 rows x 22 columns]
+INFO:root:           id  location_id  program_id
+status                                
+active    235          234         0.0
+defunct    20           20         0.0
+inactive   21           21         0.0
+INFO:root:   id  location_id  program_id accepted_payments alternate_name  \
+0   1            1         0.0                 0              0   
+1   2            2         0.0                 0              0   
+2   3            3         0.0                 0              0   
+3   4            4         0.0                 0              0   
+4   5            5         0.0                 0              0   
+
+                           application_process  \
+0                   Walk in or apply by phone.   
+1           Apply by phone for an appointment.   
+2  Phone for information (403-4300 Ext. 4322).   
+3                              Apply by phone.   
+4                       Phone for information.   
+
+                                            audience  \
+0  Older adults age 55 or over, ethnic minorities...   
+1       Residents of San Mateo County age 55 or over   
+2  Older adults age 55 or over who can benefit fr...   
+3  Parents, children, families with problems of c...   
+4  Low-income working families with children tran...   
+
+                                         description  \
+0  A walk-in center for older adults that provide...   
+1  Provides training and job placement to eligibl...   
+2  Offers supportive counseling services to San M...   
+3  Provides supervised visitation services and a ...   
+4  Provides fixed 8% short term loans to eligible...   
+
+                                         eligibility email  ...  \
+0  Age 55 or over for most programs, age 60 or ov...     0  ...   
+1  Age 55 or over, county resident and willing an...     0  ...   
+2        Resident of San Mateo County age 55 or over     0  ...   
+3                                               None     0  ...   
+4  Eligibility: Low-income family with legal cust...     0  ...   
+
+  interpretation_services                                           keywords  \
+0                       0  ADULT PROTECTION AND CARE SERVICES, Meal Sites...   
+1                       0  EMPLOYMENT/TRAINING SERVICES, Job Development,...   
+2                       0  Geriatric Counseling, Older Adults, Gay, Lesbi...   
+3                       0  INDIVIDUAL AND FAMILY DEVELOPMENT SERVICES, Gr...   
+4                       0     COMMUNITY SERVICES, Speakers, Automobile Loans   
+
+  languages                               name required_documents  \
+0         0    Fair Oaks Adult Activity Center                  0   
+1         0   Second Career Employment Program                  0   
+2         0             Senior Peer Counseling                  0   
+3         0           Family Visitation Center                  0   
+4         0  Economic Self-Sufficiency Program                  0   
+
+      service_areas  status wait_time website taxonomy_ids  
+0             Colma  active  No wait.       0            0  
+1  San Mateo County  active   Varies.       0            0  
+2  San Mateo County  active   Varies.       0            0  
+3  San Mateo County  active  No wait.       0            0  
+4  San Mateo County  active         0       0            0  
+
+[5 rows x 22 columns]
